@@ -24,20 +24,35 @@ const object={
     age:23,
     salary:60
 }
+
+//REACT ELEMENT
 const newelement=(
     <>
     <h1 id="first" className="sumit">hello coder army {name} his salary is :{object.salary}</h1>
-    <h1>sumit pokhriyal</h1>
+    <h1 style={{backgroundColor:"black",color:"pink"}}>sumit pokhriyal</h1>
     </>
 
 ) //html directly js me jsx ka part)
 //USE CREATEROOT FOR REACT18
+
+//REACT COMPONENT
+function greet(){
+    return <h1>aur bhai kesse hooo</h1>
+}
+
+const meet = ()=>{
+    return <h2>mera sab accha hai</h2>
+}
+
+const compo=greet();
+const compo1=meet();
+
+const compo3=<>
+{compo} {compo1}
+</>
+
 const reactvoots =ReactDOM.createRoot(document.getElementById('root'));//[REACT ROOT CONTAINER :ME ROOT RK DIYA]
-reactvoots.render(newelement);
-
-
-
-
+reactvoots.render(compo3);
 
 //const div1=React.createElement("div",{},[elememt,elememt2])
 //ReactDOM.render(elememt,document.getElementById('root'))  //DONT WRITE LIKE THIS IN REACT 18 AS IT IS DISCARDED IN R18 ONLY WORKS UPTO 17
@@ -45,5 +60,4 @@ reactvoots.render(newelement);
 
 //reactvoots.render(elememt);
 //reactvoots.render(elememt2);
-
 
