@@ -1,0 +1,24 @@
+{
+  "name": "reactbasic",
+  "version": "1.0.0",
+  "description": "\"learning react\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumitpokhriyal10/REACT.git"
+  },
+  "author": "sumit pokhriyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumitpokhriyal10/REACT/issues"
+  },
+  "homepage": "https://github.com/Sumitpokhriyal10/REACT#readme",
+  "dependencies": {
+    "parcel": "^2.15.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
